@@ -1,0 +1,14 @@
+h1{
+	
+	color:red;
+	font-size:25PX;
+	font-style:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+}
+section{
+background-image:url("image/background.jpg");
+background-position:center;
+background-repeat:no-repeat;
+height:25vh;
+  background-size: 1300px 200px;
+}
