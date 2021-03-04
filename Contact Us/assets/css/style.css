@@ -1,0 +1,398 @@
+/***********************************************
+    global css
+************************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+section{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/***********************************************
+    top-left css
+************************************************/
+.top-section{
+    width: 100%;
+    background: #56ab2f;
+    padding: 10px 0;
+}    
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.top-left{
+    display: flex;
+}
+.left-details{
+    margin-right: 30px;
+}
+.left-details i{
+    color: #fff;
+    margin-right: 5px;
+}
+/***********************************************
+    top-right css
+************************************************/
+.top-right{
+    display: flex;
+}
+.right li{
+    display: inline;
+    margin-right: 10px;
+}
+.right-details a{
+    margin-right: 10px;
+    color: #fff;
+}
+.right-details a:hover{
+    cursor: pointer;
+    color: #76c8e9;
+    transition: .3s ease-in-out;
+
+}
+/***********************************************
+    vertical line css
+************************************************/
+.v-line{
+    background: #4a9e23;
+    margin-right: 10px;
+    width: 2px;
+    height: 20px;
+}
+/***********************************************
+    header css
+************************************************/
+.header{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+/***********************************************
+    header-left css
+************************************************/
+.header-left{}
+/***********************************************
+    header-right css
+************************************************/
+.header-right{}
+.header-right li{
+    display: inline-block;
+}
+.header-right a{
+    display: flex;
+    color: #000;
+    margin: 0px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-right a:hover{
+    cursor: pointer;
+    color: #56ab2f;
+    transition: .3s ease-in-out;
+}
+.header-right i{
+    margin-left: -10px;
+}
+.header-icon{
+    display: flex;
+    position: relative;
+}
+.one{
+    border: 1px solid #56ab2f;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 700;
+    position: absolute;
+    color: #fff;
+    background: #56ab2f;
+    top: -6px;
+    right: -5px;
+}
+/***********************************************
+    banner css
+************************************************/
+.banner{
+    background-image: url(../image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    display: grid;
+}
+.banner-details{
+    place-items: center;
+    text-transform: uppercase;
+}
+.banner h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+.banner span{
+    color: #56ab2f;
+}
+/***********************************************
+    form css
+************************************************/
+.form-section{
+    width: 100%;
+    margin: 70px 0;
+}
+.form-details{}
+.form-details h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.form{
+    display: flex;
+}
+/***********************************************
+    form-left css
+************************************************/
+.form-left{
+    width: 50%;
+}
+.form-left h2{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-left p{
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,.6);
+}
+.form-left li{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,.6);
+}
+.form-left i{
+    border: 1px solid #56ab2f;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: #56ab2f;
+    color: #fff;
+    font-size: 11px;
+    margin: 0px 10px 16px 0;
+}
+/***********************************************
+    form-right css
+************************************************/
+.form-right{
+    text-align: center;
+    width: 50%;
+}
+/***********************************************
+    input type=text css
+************************************************/
+input[type="text"]{
+    width: 65%;
+    padding: 8px 5px 8px 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.3);
+}
+input[type="text"]::placeholder{
+    color: rgba(0,0,0,.4);
+    font-size: 14px;
+    font-weight: 300;
+}
+/***********************************************
+    input type=email css
+************************************************/
+input[type="email"]{
+    width: 65%;
+    padding: 8px 5px 8px 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.3);
+}
+input[type="email"]::placeholder{
+    color: rgba(0,0,0,.4);
+    font-size: 14px;
+    font-weight: 300;
+}
+/***********************************************
+    textarea css
+************************************************/
+textarea[name="message"]{
+    padding: 8px 5px 8px 15px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.3);
+    margin-bottom: 15px;
+}
+textarea[name="message"]::placeholder{
+    color: rgba(0,0,0,.4);
+    font-size: 14px;
+    font-weight: 300;
+}
+/***********************************************
+    input type=submit css
+************************************************/
+input[type="submit"]{
+    font-size: ;
+    padding: 10px 35px;
+    border: 1px solid #56ab2f;
+    background: #fff;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #000;
+    color: #ff6347;
+    color: #ff6347;
+    border-color: #000;
+    transition: .3s ease-in-out;
+}
+/***********************************************
+    footer part css
+************************************************/
+.footer{
+    width: 100%;
+    padding: 80px 0;
+    background: #1e1d1d;
+    color: rgba(255,255,255,.8);
+}
+/***********************************************
+    footer-top part css
+************************************************/
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+/***********************************************
+    footer-contents-1 css
+************************************************/
+.footer-contents-1{
+    width: 25%;
+}
+/***********************************************
+    footer-contents-1, footer-contents-2, footer-contest-3, footer-contents-4 css
+************************************************/
+.footer-contents-1 img,.footer-contents-2 h1,.footer-contents-3 h1,.footer-contents-4 h1{
+    margin: 0 0 30px 0;
+}
+.footer-contents-1 p{
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-contents-1 i{
+    margin: 0 10px 0 0;
+}
+/***********************************************
+    footer-contents-2 css
+************************************************/
+.footer-contents-2{
+    width: 16%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+/***********************************************
+   list-1, list-2, footer-contents-3 css
+************************************************/
+.list-1 li,.list-2 li,.footer-contents-3 li{
+    margin: 0 0 8px 0;
+}
+.list-1 a,.list-2 a,.footer-contents-3 a{
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    font-weight: 300;
+}
+.list-1 i,.list-2 i,.footer-contents-3 i{
+    margin: 0 5px 0 0;
+    font-size: 11px;
+}
+/***********************************************
+    footer-bottom part css
+************************************************/
+.row-1 img{
+    margin: 0 2px 0 2px;
+}
+.row-2 img{
+    margin: 5px 2px 0 2px;
+}
+/***********************************************
+    footer horizontal line css
+************************************************/
+.h-line{
+    height: 1px;
+    background: #96cc7e;
+    margin: 80px 0 20px 0;
+}
+/***********************************************
+    footer-bottom part css
+************************************************/
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-bottom span{
+    margin: 0 8px 0 0;
+}
+/***********************************************
+    social-media icons css
+************************************************/
+.icons li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.icons a{
+    color: #fff;
+}
+.icons i{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 12px;
+} 
+.icons i:hover{
+    cursor: pointer;
+    color: #56ab2f;
+    transform: rotate(360deg);
+    transition: .5s ease-in-out;
+}
